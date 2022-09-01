@@ -1,0 +1,121 @@
+
+    *{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        box-sizing: border-box;
+        font-weight: 400;
+        color:#fff ;
+    }
+
+    .column {
+        font-size: 18px;
+      flex: 22.22%;
+      height: 500px;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+    }	
+
+/* =====================Footer======================= */
+    .attribution {
+        color: #080808;
+        position: relative;
+        margin-top:10% ;
+        font-size: 18px;
+        text-align: center;
+     }
+
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+
+/* ================== Cars Id's ================= */
+   #sedan{
+    border-radius:10px 0 0px 10px ;
+     padding: 50px 10px;
+     text-align: left;
+     background-color: #e07801;
+     height: 460px;
+    }
+
+    #suv{
+      padding: 50px 10px;
+      background:#408d16 ;
+      text-align: left;
+      height: 460px;
+    }
+
+    #luxury{
+      border-radius:0px 10px 10px 0px ;
+      padding: 50px 10px;
+      background:#6b5b95 ;
+      text-align: left;
+      height: 460px;
+    } 
+
+/* ============== Button ============== */
+    .button{
+      float: left;
+      margin-top: 50px;
+      border-color: #fff;
+      border-radius: 35px;
+      background-color: #fff;
+      font-size: 18px;
+      padding: 10px;
+    }
+
+    #suv .button{
+      margin-top: 100px;
+      color:#408d16;
+    }
+
+    #sedan .button{
+      margin-top: 100px;
+      color:#e07801;
+    }
+
+    #luxury .button{
+      margin-top: 100px;
+      color:#6b5b95;
+    }
+
+
+/* ================= Media Queries =============================== */
+  @media only screen and (max-width: 600px) {
+    
+    .container{
+      display: block;
+    }
+
+    .column{
+      font-size: 18px;
+      height: 500px;
+      text-align: center;
+    }
+/* ================== Cars Id's ================= */
+    #sedan{
+        border-radius:10px;
+        padding: 50px 10px;
+        text-align: left;
+        background-color: #e07801;
+        height: 460px;
+        }
+
+      #suv{
+          border-radius:10px ;
+          padding: 50px 10px;
+          background:#408d16;
+          text-align: left;
+          height: 460px;
+        }
+
+      #luxury{
+          border-radius:10px;
+          padding: 50px 10px;
+          background:#6b5b95;
+          text-align: left;
+          height: 460px;
+        }
+
+  }
